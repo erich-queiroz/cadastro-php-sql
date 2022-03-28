@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/2e6a0c5dce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro de usuários com PHP</title>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de usuários em PHP com SQL</h1>
+    </header>
+    <div class="formulario">
+    <form action="cadastro.php" method="POST">
+        <input type="text" name="nome" placeholder="Nome" autofocus required>
+        <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <button>Cadastrar</button>
+        <p>Todos os campos são obrigatórios.</p>
+    </form>
+    </div>
+    <footer>
+        <p class="acompanhe">&copy; 2022 - desenhado e desenvolvido por <b>Erich Queiroz</b>. </p>
+         <a href="http://www.github.com/erich-queiroz"><i class="fa-brands fa-github" alt="Github" title="Visite meu Github"></i></a>
+         <a href="mailto:erich.q.616@gmail.com"><i class="fa-solid fa-at"></i></a>
+    </footer>
+</body>
+</html>

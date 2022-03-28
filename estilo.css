@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+h1 {
+    padding: 30px;
+    color:rgb(16, 1, 71);
+    text-transform: uppercase;
+}
+form {
+    background-color: rgba(65, 66, 66, 0.9);
+    display: inline-grid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #313131;
+}
+input {
+    margin: 10px 20px;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(173, 170, 170);
+    color: white;
+    outline: none;
+}
+button {
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 8px;
+    background: rgb(31, 3, 133);
+    outline: none;
+    color: antiquewhite;
+    border: none;
+}
+button:hover {
+    background: rgb(16, 1, 71);
+    cursor: pointer;
+}
+p {
+    font-weight: 300;
+    font-size: 13px;
+    color: white;
+}
+footer {
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.acompanhe {
+    font-size: 15px;
+    color: rgb(16, 1, 71);
+    font-weight: 700;
+}
+i {
+    margin: 10px;
+    font-size: 50px;
+    color: rgb(16, 1, 71);
+}
